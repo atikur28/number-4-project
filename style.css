@@ -6,50 +6,48 @@ body{
     padding: 0px;
 }
 /* Banner section  */
-header{
+.banner{
     background-image: url("./banner/banner3.png");
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 300px;
-}
-.banner{
-    align-items: center;
-    justify-content: center;
+    padding: 200px 0px;
 }
 .banner-header{
     color: #FFF;
     text-align: right;
     font-size: 65px;
     font-weight: 700;
+    padding: 216px 0px 0px 1045px;
     width: 525px;
-    /* padding: 216px 230px 0px 845px; */
-    padding: ;
 }
-.header-para{
+.banner-para{
     color: #FFF;
     text-align: right;
     font-size: 16px;
     font-weight: 400;
     width: 494px;
-    padding: 24px 230px 32px 875px;
-}
-.btn{
-    padding: 0px 230px 400px 1410px;
+    padding: 25px 0px 0px 1078px;
+    padding-bottom: 32px;
 }
 .primary-btn{
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 5px;
-    padding: 20px 25px;
     border: none;
-    background: #FFF;
-
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+.btn{
+    padding: 40px 0px 160px 1418px;
 }
 /* Failure section */
-.failure-reason{
+.failure-result{
     gap: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
 }
 .tick{
     width: 15px;
@@ -74,9 +72,5 @@ ul{
 ul > li{
     padding-bottom: 8px;
 }
-.failure-reason{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 /* My Plans Section */
