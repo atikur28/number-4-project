@@ -37,6 +37,7 @@ body{
     border: none;
     padding: 20px 25px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn{
     padding: 40px 0px 160px 1418px;
@@ -53,7 +54,7 @@ body{
     width: 15px;
 }
 .failure-header{
-    color: var(--dark-01, #151414);
+    color: #151414;
     font-size: 40px;
     font-weight: 700;
     width: 288px;
@@ -63,7 +64,7 @@ ul{
     list-style: none;
 }
 .failure-para{
-    color: var(--dark-02, #444343);
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
     width: 416px;
@@ -74,3 +75,55 @@ ul > li{
 }
 
 /* My Plans Section */
+.plans{
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+.plan-header{
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.skill-img{
+    width: 80px;
+    /* text-align: center; */
+}
+.skill-header{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 24px 0px 12px 0px;
+}
+.skill-para{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.plan-skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 85px 230px 0px 230px;
+}
+.mindset{
+    background-image: url("./background-images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-mindset{
+    padding: 270px 0px 277px 455px;
+    background-image: url("./background-images/gradient1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-header{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
